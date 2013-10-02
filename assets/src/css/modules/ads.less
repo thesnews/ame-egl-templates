@@ -1,0 +1,72 @@
+.ad {
+	border: 1px solid #ccc;
+
+	display: inline-block;
+
+	&.button {
+		width: 120px;
+		height: 90px;
+		background: #f1f1f1;
+
+	}
+
+	&.leaderboard {
+		width: 728px;
+		height: 90px;
+		background: #f1f1f1;
+	}
+
+	&.classified-sponsor {
+		width: 255px;
+		height: 55px;
+		background: #f1f1f1;
+	}
+
+	&.rectangle {
+		width: 300px;
+		height: 250px;
+		background: #f1f1f1;
+	}
+
+	&.search-sponsor {
+		width: 88px;
+		height: 31px;
+		background: #f1f1f1;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -4px;
+	}
+
+}
+
+.ad-box {
+	background: @grayLight;
+
+	color: @grayDark;
+	font-weight: 300;
+	a {
+		color: @grayDark;
+	}
+}
+
+@media(min-width: 980px)and (max-width:1200px){
+  .ad {
+	border: 1px solid #ccc;
+
+	display: inline-block;
+
+	&.button {
+		&.right {
+		  margin-right: -65px;
+		}
+
+		&.left {
+		  margin-left: -65px;
+		}
+
+	 }
+	}
+
+}

@@ -1,0 +1,177 @@
+header.box {
+	background: @grayDark;
+	color: #fff;
+	border-bottom: 10px solid @redDark;
+	max-height: 31px;
+	
+	.pollHead {
+			border-bottom: 0;
+		}
+	.tagline {
+		color: pink;
+	}
+	.column {
+		border-bottom: 0;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		padding: 8px 0px 0px 10px;
+		color: #fff;
+		line-height: 24px;
+		min-height: 26px;
+		border-bottom: 2px solid @grayDark;
+		
+		em	{
+			font-size: 24px;
+		}
+		
+	}
+}
+
+.highlight {
+	padding: 4px 8px;
+	background: url(../img/grid_bg.png);
+}
+
+.box-content {
+	padding: 10px;
+	font-size: 12px;
+	background: @gray;
+	color: @black;
+
+	p {
+		font-size: 14px;
+		color: @black;
+	}
+	
+	aside	{
+		color: @black;
+		padding: 5px 0;
+	}
+	
+	ul.unstyled {
+		li {
+		color: @black;
+		
+		}
+	
+	}
+}
+
+.breaking-box {
+	.box-shadow(0 0 3px #666);
+	background: @grayLight;
+	padding: 10px;
+
+	h3 {
+		line-height: 1.2em;
+	}
+}
+header.breaking {
+	#gradient > .vertical(#ea503c, #d4331e);
+	border: 1px solid #c0230f;
+	color: #fff;
+	padding: 6px 8px;
+	padding-bottom: 2px;
+	display: inline-block;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px #333;
+
+	h4 {
+		font-family: @playfair;
+		color: #fff;
+		text-transform: uppercase;
+		display: inline;
+		border-right: 2px solid #fff;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+}
+header.developing {
+	#gradient > .vertical(#a3a3a3, #757575);
+	border: 1px solid #404040;
+	color: #fff;
+	padding: 6px 8px;
+	padding-bottom: 2px;
+	display: inline-block;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px #333;
+
+	h4 {
+		font-family: @playfair;
+		color: #fff;
+		text-transform: uppercase;
+		display: inline;
+		border-right: 2px solid #fff;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+}
+
+.latest-box	{
+	background: @grayLight;
+	header{
+		border-top: solid 5px @redDark;
+		background: @grayDark;
+		h2	{
+			font-size: 38px;
+			line-height: 40px;
+			padding-left: 5px;
+			color: @white;
+			em	{
+			.smaller;
+			}
+		}
+	}
+	article	{
+		padding: 5px;
+		h2	{
+			font-family: @playfair;
+    		font-size: 38px;
+    		line-height: 33px;
+    		color: @black;
+    		padding-bottom: 10px;
+		}
+	}
+}
+
+.smaller {
+	font-size: 0.8em;
+}
+
+.side-box {
+	.text-center;
+
+	.box-shadow(0px 0px 3px #999);
+
+	div.box {
+		border-color: @grayLight;
+		background: url(../img/grid_bg.png);
+	}
+
+	h4 a {
+		color: @grayDark;
+	}
+}
+
+.rundown-box {
+	div.box {
+		border-color: @grayLight;
+		background: url(../img/grid_bg.png);
+	}
+
+	header.box a:hover {
+		text-decoration: none;
+	}
+
+	h4 a {
+		color: @grayDark;
+	}
+
+	div.first {
+		margin-right: 0 !important;
+	}
+
+	.has-media {
+		margin-left: 80px;
+	}
+}

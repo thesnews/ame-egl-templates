@@ -1,0 +1,557 @@
+/* Article Styles */
+
+article {
+	h1  {
+		color: #000000;
+		line-height: 1.0em;
+		font-size: 48px;
+	}
+
+	h2, h3, h4, h5, h6 {
+		line-height: 1.2em;
+		color: @grayDark;
+
+		.kicker {
+			font-size: 0.6em;
+		}
+	}
+
+	h2  {
+		color: @grayDark;
+		font-family: @playfair;
+		font-size: 22px;
+	}
+
+	.kicker {
+		color: #990033;
+		text-transform: uppercase;
+		font-family: @playfair;
+	}
+
+	aside  {
+		font-family: @baskerville;
+   		font-size: 14px;
+    	line-height: 16px;
+    	font-weight: 400;
+    	font-style: none;
+    	text-transform: none;
+    	color: @redDark;
+	}
+
+
+	img.inline {
+		float: left;
+		margin: 0 5px 5px 0;
+	}
+
+	p {
+		font-family: @baskerville;
+		line-height: 1.5em;
+		font-size: 13px;
+	}
+
+	aside {
+		font-size: 12px;
+	}
+
+	.feature {
+
+	  img  {
+	  	width: 100%;
+
+	  }
+
+	}
+
+	figure	{
+		margin: 0;
+		padding: 10px;
+		background: @gray;
+
+		img {
+			  display: block;
+			  margin:0 auto;
+		}
+
+		figcaption {
+			font-size: 14px;
+			font-weight: bold;
+			p {
+				font-size:14px;
+				font-weight: normal;
+			}
+		}
+	}
+
+	.mugshots  {
+
+        img {
+
+            max-width: 180px;
+            margin-right: 10px;
+            float: left;
+        }
+
+        p  {
+            background-color: @grayLight;
+            margin-right: 10px;
+            padding: 5px;
+            text-align: center;
+        }
+	}
+
+    .mugshotsWOT  {
+        img {
+            width: 120px;
+            margin-right: 10px;
+        }
+        p {
+            margin-right: 10px;
+            padding: 5px;
+            text-align: left;
+        }
+    }
+
+	/*.integrated-media-left  {
+		float: left;
+		margin-right: 10px;
+		width: 250px;
+
+		img  {
+			width: 250px;
+		}
+
+		p {
+			font-family: @playfair;
+			font-size: 12px;
+			line-height: 16px;
+			font-weight: 100;
+			padding: 5px;
+		}
+
+		div.gallery{
+			position: relative;
+
+		}
+
+		.gall_link{
+			position: absolute;
+			top: 70px;
+			width: 250px;
+			padding: 15px 0px;
+			display: block;
+			text-align: center;
+			background: rgba(238,238,238, .8);
+
+
+		}
+
+		.image, .gallery, .video, .flash, .audio {
+			background-color: @grayLight;
+			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}*/
+
+	/*.info-box  {
+		float: left;
+		margin-right: 8px;
+		width: 175px;
+
+
+		highlight {
+			padding: 10px;
+		}
+
+		h3  {
+		  font-size: 24px;
+		  text-align: center;
+		  margin: -4px 0px 0px -8px;
+		  background-color: #000;
+		  width: 175px;
+		  color: white;
+		  border-top: 3px solid #8A0808;
+		}
+
+		p {
+			font-family: @playfair;
+			font-size: 12px;
+			line-height: 16px;
+			font-weight: 100;
+			padding: 5px;
+			margin: 5px 0px;
+		}
+
+		ul  {
+		  margin-left: 0;
+		}
+
+		li  {
+		  font-family: @playfair;
+		  font-size: 12px;
+		  line-height: 16px;
+		  font-weight: 100;
+		  list-style-type: none;
+		  padding: 5px;
+		  margin: 5px 0px;
+		}
+	}*/
+
+	ul li a img  {
+		margin-left: 30px;
+	}
+
+	ul li a img:hover  {
+		opacity: .6;
+	}
+
+
+
+	.pull-quote  {
+	  background: url(../img/grid_bg.png);
+	  width: 100%;
+	  margin: 10px 0px;
+
+	  p{
+	  	text-align: center;
+	  	padding: 20px;
+	  	font-weight: 300;
+	  	font-size: 24px;
+	  	font-family: @playfair;
+	  	line-height: 40px;
+	  }
+	}
+
+
+	.related-stories  {
+		border-top: 6px solid #8A0808;
+
+	  	.arrow-down  {
+	  		margin: auto;
+			margin-bottom: 25px;
+			width: 0;
+			height: 0;
+			border-top: 20px solid #990033;
+			border-right: 20px solid transparent;
+			border-left: 20px solid transparent;
+	  	}
+
+	 		.related  {
+	  			width: 100%;
+	  			height: auto;
+	  			padding-bottom: 10px;
+	  			margin-bottom: 10px;
+	  			border-bottom:1px solid @gray;
+
+	  		}
+
+	  		.related:last-child  {
+	  		  border-bottom: none;
+	  		}
+
+	  h1  {
+	  	padding: 15px;
+	  	background-color: #000;
+	  	color: white;
+	  	text-align: center;
+	  	text-shadow: 1px 1px 1px black;
+	  	font-weight: 700;
+	  	font-size: 30px;
+	  	font-family: @playfair;
+
+	  	}
+
+	  h5 a {
+	  	font-family: @playfair;
+	  	color: @gray;
+	  	font-size: 18px;
+	  }
+
+	  img  {
+	  	float: left;
+	  	margin-right: 10px;
+	  }
+	}
+
+	.share {
+
+		li {
+			display:inline-block;
+
+			img {
+				margin-left: 6px;
+				height: 32px;
+				width: 32px;
+			}
+		}
+
+		/*li {
+			display: inline-block;
+			float: left;
+			font-size: 11px;
+		}*/
+
+		/*li.discuss  {
+		  a {
+		  	padding-left: 5px;
+		  }
+		  a:hover  {
+	    	text-decoration: none;
+
+	    }
+	  }*/
+
+	}
+	&.topStory	{
+		h1	{
+			font-size: 42px;
+		}
+		figure	{
+			display: block;
+			position: relative;
+			overflow: hidden;
+			margin: 0;
+
+
+		}
+
+		figcaption {
+			font-size: 12px;
+			background-color: #eee;
+			text-align:left;
+			line-height:normal;
+			padding:5px;
+
+			p {
+				color: @grayDarker;
+				margin-bottom: 10px;
+			}
+
+			span  {
+				color: @grayDarker;
+				font-weight: 700;
+			}
+
+
+			#photocredit {
+				text-align:left;
+				display:block;
+				padding-right:10px;
+			}
+
+		}
+
+	}
+}
+
+.article .span8 article {
+	.related-articles {
+    	background-color: @grayLight;
+    	float: left;
+    	margin: 0px 15px 10px 0px;
+    	width: 45%;
+    	h3 {
+    		background: #000;
+    		color: #fff;
+    		border-top: 3px solid #8a0808;
+			padding-left: 10px;
+			font-size: 32px;
+    	}
+
+    	article {
+    		.clearfix;
+    		padding: 5px 10px;
+
+    		aside {
+    			display: inline;
+    		}
+
+    		h4	{
+    			font-size: 18px;
+    		}
+
+    		img {
+    			float: left;
+    			padding-right: 10px;
+    			width: 80px;
+    		}
+
+    		>div p, >aside span, >aside {
+    			font-size: 12px;
+    			color: @black;
+    		}
+
+
+
+    		p {
+    			margin-bottom: 0;
+    			a {
+    				color: @redDark;
+    			}
+    		}
+    	}
+
+
+
+    }
+
+	.integrated-media-left  {
+		float: left;
+		margin-right: 10px;
+		width: 30%;
+
+		> div {
+			margin-bottom: 10px;
+		}
+
+		img  {
+			width: 250px;
+		}
+
+		figcaption, p {
+			font-family: @playfair;
+			font-size: 12px;
+			line-height: 16px;
+			font-weight: 100;
+			padding: 5px;
+		}
+
+		div.gallery{
+			position: relative;
+
+		}
+
+		.gall_link{
+			position: absolute;
+			top: 70px;
+			width: 100%;
+			padding: 15px 0px;
+			display: block;
+			text-align: center;
+			background: rgba(238,238,238, .8);
+
+
+		}
+
+		.image, .gallery, .video, .flash, .audio {
+			background-color: @grayLight;
+			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.info-box  {
+		width: 100%;
+
+		highlight {
+			padding: 10px;
+		}
+
+
+		h3  {
+		  font-size: 24px;
+		  text-align: center;
+		  margin: -4px 0px 0px -8px;
+		  padding: 4px 8px 0px 8px;
+		  background-color: #000;
+		  width: 100%;
+		  color: white;
+		  border-top: 3px solid #8A0808;
+		}
+
+		p {
+			font-family: @playfair;
+			font-size: 12px;
+			line-height: 16px;
+			font-weight: 100;
+			padding: 5px;
+			margin: 5px 0px;
+		}
+
+		ul  {
+		  margin-left: 0;
+		}
+
+		li  {
+		  font-family: @playfair;
+		  font-size: 12px;
+		  line-height: 16px;
+		  font-weight: 100;
+		  list-style-type: none;
+		  padding: 5px;
+		  margin: 5px 0px;
+		}
+	}
+}
+
+.rundown header	{
+	background: @grayDark;
+	border-top: solid @redDark 5px;
+	display: block;
+	padding: 4px;
+	margin: 5px 0;
+	a	{
+		color: @white;
+	}
+	h2	{
+		padding-left: 4px;
+		display: inline;
+		font-size: 37px;
+	}
+	h3	{
+		padding-top: 8px;
+		display: inline;
+		float: right;
+		font-size: 21px;
+		opacity: .8;
+		font-weight: 200;
+	}
+}
+
+.rundownStory	{
+	img	{
+		float: left;
+		margin-right: 5px;
+		max-width: 150px;
+	}
+}
+
+aside	{
+	height: 20px;
+}
+      .audiojs audio { position: absolute; left: -1px; }
+      .audiojs { width: 230px; height: 36px; background: @green; overflow: hidden; font-family: monospace; font-size: 12px;
+        -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+        -o-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); }
+      .audiojs .play-pause { width: 25px; height: 40px; padding: 4px 6px; margin: 0px; float: left; overflow: hidden; border-right: 1px solid #fff; }
+      .audiojs p { display: none; width: 25px; height: 40px; margin: 0px; cursor: pointer; }
+      .audiojs .play { display: block; }
+      .audiojs .scrubber { position: relative; float: left; width: 100px; background: #greenDarker; height: 14px; margin: 10px; border-left: 0px; border-bottom: 0px; overflow: hidden; }
+      .audiojs .progress { position: absolute; top: 0px; left: 0px; height: 14px; width: 0px; background: #fff; z-index: 1; }
+      .audiojs .loaded { position: absolute; top: 0px; left: 0px; height: 14px; width: 0px; background: #fff; }
+      .audiojs .time { float: left; height: 36px; line-height: 36px; margin: 0px 0px 0px 6px; padding: 0px 6px 0px 12px; border-left: 1px solid #fff; color: #fff; }
+      .audiojs .time em { padding: 0px 2px 0px 0px; color: #fff; font-style: normal; }
+      .audiojs .time strong { padding: 0px 0px 0px 2px; font-weight: normal; }
+      .audiojs .error-message { float: left; display: none; margin: 0px 10px; height: 36px; width: 400px; overflow: hidden; line-height: 36px; white-space: nowrap; color: #fff;
+        text-overflow: ellipsis; -o-text-overflow: ellipsis; -icab-text-overflow: ellipsis; -khtml-text-overflow: ellipsis; -moz-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; }
+      .audiojs .error-message a { color: #eee; text-decoration: none; padding-bottom: 1px; border-bottom: 1px solid #999; white-space: wrap; }
+
+      .audiojs .play { background: url('/assets/dist/audiojs/player-graphics.gif') -2px -1px no-repeat; }
+      .audiojs .loading { background: url('/assets/dist/audiojs/player-graphics.gif') -2px -31px no-repeat; }
+      .audiojs .error { background: url('/assets/dist/audiojs/player-graphics.gif') -2px -61px no-repeat; }
+      .audiojs .pause { background: url('/assets/dist/audiojs/player-graphics.gif') -2px -91px no-repeat; }
+
+      .playing .play, .playing .loading, .playing .error { display: none; }
+      .playing .pause { display: block; }
+
+      .loading .play, .loading .pause, .loading .error { display: none; }
+      .loading .loading { display: block; }
+
+      .error .time, .error .play, .error .pause, .error .scrubber, .error .loading { display: none; }
+      .error .error { display: block; }
+      .error .play-pause p { cursor: auto; }
+      .error .error-message { display: block; }

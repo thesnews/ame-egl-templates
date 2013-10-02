@@ -1,0 +1,3 @@
+<!--media/flashVideo.tpl-->
+
+Flash!

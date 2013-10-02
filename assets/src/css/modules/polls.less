@@ -1,0 +1,90 @@
+/* Poll Styles */
+
+.pagination  {
+	height: auto;
+	margin: 25px 0;
+	ul .active a {
+  		color: @red;
+  	}  	
+}
+	
+.polls {
+	
+	 p {
+		padding-left: 30px;
+		font-size: 14px;
+		
+		a {
+			color: @black;
+		}
+	}	
+	
+	
+	ul  {
+	  margin-left: 0px;
+	}
+	
+	ul.unstyled {
+	 li  {
+	  margin-top: 15px;
+	  margin-left: 30px;
+	  color: @black;
+	  
+	  
+	  
+	 
+	  }
+	}  
+	
+	.charlist  {
+	  float: left;
+	  border-top: 1px solid gray;
+	  width: 15em;
+	}
+	
+	.chartlist li { 
+	  position: relative;
+	  display: block; 
+	  border-top: 1px solid @grayLight;
+	  border: 1px solid @grayLight;
+	  padding: 2px;
+	  margin: 2px 0px;
+	}
+	
+	.chartlist .count { 
+	  display: block; 
+	  position: absolute; 
+	  top: 0; 
+	  right: 0; 
+	  margin: 0 0.3em; 
+	  text-align: right; 
+	  color: @grayDark; 
+	  font-weight: bold; 
+	  font-size: 0.875em; 
+	  vertical-align: middle;
+	  z-index: 1;
+	}
+	
+	.chartlist .item { 
+	  display: block; 
+	  padding: 0.4em 4.5em 0.4em 0.5em;
+	  position: relative; 
+	  z-index: 2;
+	  font-weight: bold;
+	  color: @grayDark; 
+	}
+	
+	.chartlist .index { 
+	  display: block; 
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  height: 100%; 
+	  background: @red; 
+	  text-indent: -9999px; 
+	  overflow: hidden; 
+	  line-height: 2em;
+	}	
+
+
+}

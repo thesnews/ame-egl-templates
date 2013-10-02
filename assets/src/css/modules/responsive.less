@@ -1,0 +1,135 @@
+// one step under max
+@media only screen and (max-width: 1200px) {
+
+	.rundown-box {
+		img {
+			display: none;
+		}
+		.has-media {
+			margin-left: 0;
+		}
+	}
+	.navbar .nav li a {
+		font-size: 14px;
+	}
+
+	article {
+		.info-box {
+			width: 175px;
+		}
+	}
+
+}
+
+// tablets
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		padding-top: 0;
+	}
+
+	#main-content > .row > .span8 {
+		width: 100%;
+	}
+
+	#main-content > .row {
+		width: 100%;
+	}
+
+	#maincontain	{
+		.nav {
+			float: left;
+			width: 100%;
+			li {
+				display: block;
+				font-size: 1.4em;
+				text-align: left;
+			}
+
+			form {
+				padding: 10px 5px;
+
+				input {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+// phones
+@media (max-width: 767px) {
+
+	body	{
+		padding: 0;
+	}
+
+	#maincontain	{
+		padding: 10px;
+		left: 0;
+		.nav {
+			float: left;
+			width: 100%;
+			li {
+				display: block;
+				font-size: 1.4em;
+				text-align: left;
+			}
+
+			form {
+				padding: 10px 5px;
+
+				input {
+					width: 100%;
+				}
+			}
+		}
+
+	}
+
+	#top-ticker {
+		text-align: center !important;
+	}
+
+	.subnav, .multimedia .subnav {
+		display: block;
+		text-align: center;
+		float: none;
+
+		ul {
+			li:first-child {
+				display: none;
+			}
+		}
+	}
+
+	.mugshots {
+		img {
+			max-width: 90px !important;
+		}
+	}
+
+	.article .span8 article > p {
+		max-width: none;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	header.breaking {
+		line-height: 0.9em;
+	}
+
+	.breaking-box h3 {
+		line-height: 0.9em;
+	}
+	footer	{
+		.span2	{
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 320px)	{
+	eagle-stories header{
+		height: 100px;
+	}
+}
